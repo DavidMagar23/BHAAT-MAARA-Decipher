@@ -47,5 +47,9 @@ button {
     margin: 0 auto;
     width: 200px;
     min-width: 0px;
+    @media screen {
+        width: 200px;
+        min-width: 0px;
+    }
 }
 
